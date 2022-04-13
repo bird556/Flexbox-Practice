@@ -298,6 +298,11 @@ a:visited {
   color: rgb(214, 214, 214);
 }
 
+a {
+    text-decoration: none; 
+    color: none; 
+}
+
 /* .artist-showcase:hover { */
 /* color: white; */
 /* } */
