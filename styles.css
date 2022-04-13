@@ -300,7 +300,7 @@ a:visited {
 
 a {
     text-decoration: none; 
-    color: none; 
+    color: rgb(214, 214, 214);
 }
 
 /* .artist-showcase:hover { */
