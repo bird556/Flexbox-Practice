@@ -266,8 +266,12 @@ a:visited {
 }
 
 .artist-name {
-  /* color: white; */
+  /* color: rgb(194, 194, 194); */
   font-size: 12px;
+}
+
+.artist-name:hover {
+  color: white;
 }
 
 .artist-img {
@@ -281,6 +285,7 @@ a:visited {
   display: flex;
   flex-direction: column;
   /* background-color: red; */
+  color: rgb(221, 221, 221);
   width: 150px;
   align-items: center;
   gap: 10px;
@@ -295,12 +300,7 @@ a:visited {
   gap: 30px;
   flex-wrap: wrap;
   justify-content: center;
-  color: rgb(214, 214, 214);
-}
-
-a {
-    text-decoration: none; 
-    color: grey;
+  color: rgb(189, 189, 189);
 }
 
 /* .artist-showcase:hover { */
@@ -315,8 +315,112 @@ a {
 /* color: inherit; */
 /* } */
 
-/* @media screen and (max-width: 660px) { */
-/* .artist-zone { */
-/* position: relative; */
-/* } */
-/* } */
+/* ---------------BUTTON------------------ */
+
+.btn {
+  background-color: black;
+  border-color: white;
+  border-radius: 16px;
+  border-style: solid;
+  border-width: 2px;
+  color: white;
+  display: flex;
+  /* height: 50px; */
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 210px;
+  -webkit-border-radius: 16;
+  -moz-border-radius: 16;
+}
+
+.btn:hover {
+  background-color: rgb(22, 22, 22);
+}
+
+.btn-text {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.btn-text-apple {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.app-img {
+  height: 30px;
+  margin-left: 10px;
+}
+
+.button {
+  margin-top: 15rem;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  /* background-color: blue; */
+}
+.app-image {
+  height: 50px;
+}
+
+.app-img-apple {
+  height: 30px;
+  margin-left: 15px;
+}
+
+@media screen and (max-width: 660px) {
+  .button {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .button-a {
+    display: flex;
+    /* background-color: red; */
+    justify-content: center;
+  }
+}
+
+/* FOOTER */
+.footer {
+  /* background-color: black; */
+  /* margin-top: 5%; */
+  /* margin-bottom: 15px; */
+  height: 39vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 25px;
+}
+
+.footer-section {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-brands {
+  color: rgb(214, 214, 214);
+  font-size: 1.5em;
+}
+
+.fa-brands:hover {
+  color: rgb(255, 255, 255);
+  font-size: 1.8em;
+  cursor: pointer;
+}
+
+.fa-solid {
+  color: rgb(214, 214, 214);
+  font-size: 1.5em;
+}
+
+.fa-solid:hover {
+  color: rgb(255, 255, 255);
+  font-size: 1.8em;
+  cursor: pointer;
+}
